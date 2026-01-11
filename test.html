@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>LLM Test</h2>
+<textarea id="prompt" rows="4" cols="50">Hello AI!</textarea><br>
+<button onclick="sendPrompt()">Send</button>
+<pre id="response"></pre>
+
+<script>
+async function sendPrompt() {
+    const prompt = document.getElementById("prompt").value;
+    const res = await fetch('http://192.168.1.1:8000/query', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({prompt})
+    });
+    const data = await res.json();
+    document.getElementById("response").innerText = data.response;
+}
+</script>
+</body>
+</html>
